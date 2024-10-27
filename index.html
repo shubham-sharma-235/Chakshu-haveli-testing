@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chaksu Haveli</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="hero-section">
+        <div class="hero-video">
+          <video
+            src="https://cdn.pixabay.com/video/2024/05/08/211152_large.mp4"
+            autoplay
+            muted
+            loop
+          ></video>
+
+          <!-- <div class="hero-heading">
+                    <h1>Chaksu Haveli</h1>
+                </div> -->
+          <div class="Hero-heading" id="resizingDiv">Chaksu Haveli</div>
+        </div>
+      </div>
+
+      <div class="hero__bottom">
+          <a href="#about">
+            <img src="./images/scroll-bottom-hero-button.svg"
+              alt="Scroll bottom"
+            />
+          </a>
+      </div>
+
+      <!-- ------------------------- -->
+
+      <div class="navbar" data-aos="fade-down" data-aos-duration="800">
+        <div class="nav-menu">
+          <div class="menu-button" id="menuButton">
+            <i class="bx bx-menu-alt-right"></i>
+            <span>Menu</span>
+          </div>
+        </div>
+        
+        <div class="nav-logo">
+          <h2>Chaksu Haveli</h2>
+        </div>
+        
+        <div class="nav-right">
+          <a href="#">Book Now</a>
+        </div>
+      </div>
+      
+      <div class="sidebar" id="sidebar">
+        <div class="header">
+          <div class="logo" id="resizingDiv">Chaksu Haveli</div>
+          <button class="close-button" id="closeButton">
+            <i style="transform: rotate(45deg)" class="bx bx-cross"></i>
+          </button>
+        </div>
+
+        <ul>
+          <li>
+            <img src="./images/sidebar-arrow-icon.svg" alt="" />
+            <a href="#"> Link One </a>
+          </li>
+    
+          <li><a href="#">Link Two</a></li>
+          <li><a href="#">Link Three</a></li>
+          <li><a href="#">Link Four</a></li>
+          <li><a href="#">Link Five</a></li>
+          <li><a href="#">Link Six</a></li>
+        </ul>
+
+      </div>
+      
+      <!-- ------------------ -->
+
+      <div class="about-section"  id="about">
+        <div class="common-heading about-us-heading" data-aos="zoom">
+          <h2>About Chaksu Haveli</h2>
+          <!-- <hr> -->
+        </div>
+        <div class="common-para" data-aos="fade-up">
+          <p>
+            Chaksu Haveli is a home away from home, nestled at the crossroads of
+            culture, heritage, and luxury. We are a community of simple people,
+            seeking connection, inspiration, and awareness. Our experience is
+            powered by music, wellness, art, adventure, food, learning, science,
+            and giving back.
+          </p>
+        </div>
+        <div class="learn-more-btn about-btn">
+            <a href="#">
+                <button>Learn More</button>
+            </a>
+          </div>
+      </div>
+
+      <!-- ------------------------- -->
+
+      <!-- <div class="snipts-section">
+        <div class="common-heading snipts-heading" data-aos="zoom" data-aos-offset="100">
+          <h2>Our Stays</h2>
+        </div>
+        <div class="common-para" data-aos="fade-up">
+          <p>
+            Discover a curated selection of luxurious hotels, each offering
+            unique amenities and personalized service. Experience unforgettable
+            stays that blend comfort and elegance, making every moment
+            memorable.
+          </p>
+        </div>
+
+        <div class="carousel" data-aos="zoom" data-aos-offset="100">
+          <button class="prev" onclick="scrollCarousel(-1)">&#10094;</button>
+          <div class="carousel-images">
+            <img src="./images/carousel-img-1.JPG" alt="Image 1" />
+
+            <img src="./images/carousel-img-2.JPG" alt="Image 2" />
+
+            <img src="./images/carousel-img-3.JPG" alt="Image 3" />
+
+            <img src="./images/carousel-img-4.JPG" alt="Image 4" />
+
+            <img src="./images/carousel-img-5.JPG" alt="Image 5" />
+
+            <img src="./images/carousel-img-1.JPG" alt="Image 1" />
+
+            <img src="./images/carousel-img-2.JPG" alt="Image 2" />
+
+            <img src="./images/carousel-img-3.JPG" alt="Image 3" />
+
+            <img src="./images/carousel-img-4.JPG" alt="Image 4" />
+
+            <img src="./images/carousel-img-5.JPG" alt="Image 5" />
+            
+          </div>
+          <button class="next" onclick="scrollCarousel(1)">&#10095;</button>
+        </div>
+      </div> -->
+
+
+      <div class="snipts-section">
+        <div class="common-heading snipts-heading" data-aos="zoom" data-aos-offset="100">
+          <h2>Our Homes</h2>
+        </div>
+        <div class="common-para" data-aos="fade-up">
+          <p>
+            Discover a curated selection of luxurious hotels, each offering
+            unique amenities and personalized service. Experience unforgettable
+            stays that blend comfort and elegance, making every moment
+            memorable.
+          </p>
+        </div>
+
+        <div class="snipts-container">
+            <div class="snipt-card">
+              <img src="./images/snipts/img-1.jpg" alt="">
+
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-2.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-3.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-4.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-5.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-6.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-3.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-4.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-5.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-6.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <!-- -------------------------------------- -->
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-1.jpg" alt="">
+
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-2.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-3.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-4.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-5.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-6.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-3.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-4.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-5.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+            <div class="snipt-card">
+              <img src="./images/snipts/img-6.jpg" alt="">
+              <h3>Leyja Wellness | NEOM</h3>
+              <h4>Our Home of Restoration </h4>
+
+              <p>Discover AlUla</p>
+            </div>
+
+
+         </div>
+      </div>
+
+      <!-- ------------------------- -->
+
+      <div class="story-section">
+        <div class="common-heading story-heading" data-aos="zoom">
+          <h2>Our Story</h2>
+        </div>
+        <div class="common-para" data-aos="fade-up">
+          <p>
+            Our signature experiences embody our distinctive ethos, core values,
+            and curated programs, offering guests the very best of what our home
+            has to offer.
+          </p>
+        </div>
+      </div>
+
+      <section class="our-story-video-section">
+        <div class="our-story-video-container" id="ourStoryVideoContainer">
+          <video id="ourStoryVideo" controls>
+            <source
+              src="https://cdn.pixabay.com/video/2023/10/10/184370-873181596_large.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </section>
+
+      <!-- ------------------------- -->
+
+      <div class="experiences-section">
+        <div class="common-heading experiences-heading" data-aos="zoom">
+          <h2>Signature Experiences</h2>
+        </div>
+        <div class="common-para" data-aos="fade-up">
+          <p>
+            Our signature experiences embody our distinctive ethos, core values,
+            and curated programs, offering guests the very best of what our home
+            has to offer.
+          </p>
+        </div>
+
+        <div class="experiences-container">
+          <a
+            href=""
+            class="experience-item"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1529154166925-574a0236a4f4?q=80&w=1674&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Experience 1"
+              />
+              <div class="experience-title">Art Residency</div>
+              <div class="experience-overlay">
+                <p>
+                  At Chaksu Haveli, our art residency program invites creative
+                  individuals from all over the world—whether you’re an artist,
+                  musician, dancer, or creator of any discipline. We offer a
+                  unique space to explore your craft in a setting rich with
+                  history and inspiration. Artists are invited to apply for a
+                  3-4 month stay, where they have complete freedom to create in
+                  any form or style. Whether you choose to embark on a guided
+                  journey of artistic discovery or prefer to be the captain of
+                  your own creative soul, we provide the environment and support
+                  to let your art flourish. At the end of the residency, your
+                  work will be featured in a special exhibition, allowing you to
+                  share your creations with the world. This exclusive program is
+                  designed to nurture artistic expression across all mediums,
+                  offering a sanctuary where creativity thrives in harmony with
+                  the cultural essence of Rajasthan.
+                </p>
+                <button class="explore-button">Explore</button>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href="#"
+            class="experience-item"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="200"
+            data-aos-duration="600"
+            data-aos-easing="ease-in-out"
+          >
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1522582451902-3545817f6046?q=80&w=1762&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Experience 2"
+              />
+              <div class="experience-title">
+                Chaksu Cultural Centre & Cultural Tour
+              </div>
+              <div class="experience-overlay">
+                <p>
+                  Explore the heart of Chaksu's vibrant artistic heritage with
+                  our curated <b>Chaksu Cultural Centre & Cultural Tour</b>.
+                  This experience takes you through the haveli’s art room, where
+                  traditional Rajasthani art is on display, followed by live
+                  musical performances that evoke the spirit of the region. As
+                  night falls, a mesmerizing light and sound show will unfold,
+                  narrating the history of Chaksu Haveli. Continue your journey
+                  with visits to local artisans, including tattoo artists,
+                  dancers, and women working at kantha looms, showcasing their
+                  intricate crafts passed down through generations. This tour
+                  offers a structured yet deeply immersive glimpse into the
+                  artistic and cultural legacy of Chaksu village.
+                </p>
+                <button class="explore-button">Explore</button>
+              </div>
+            </div>
+          </a>
+
+          <a
+            href=""
+            class="experience-item"
+            data-aos="fade-up"
+            data-aos-offset="100"
+            data-aos-delay="100"
+            data-aos-duration="500"
+            data-aos-easing="ease-in-out"
+          >
+            <div>
+              <img
+                src="https://images.unsplash.com/photo-1643474004591-35d044e959ea?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Experience 3"
+              />
+              <div class="experience-title">
+                Day in the Life: Immersive Village Tour
+              </div>
+              <div class="experience-overlay">
+                <p>
+                  For those seeking a personal connection with the community,
+                  our <b>Day in the Life: Immersive Village Tour</b> offers a
+                  one-of-a-kind experience. Choose a local village informant to
+                  be your guide for the day, and immerse yourself in the rhythms
+                  of rural life from sunrise to sunset. Participate in daily
+                  activities like farming, cooking, crafting, and engaging in
+                  community traditions. This intimate cultural exchange allows
+                  you to live, work, and connect with the villagers, providing a
+                  profound and authentic perspective on life in Chaksu. It’s a
+                  journey into the heart of the village, where you’ll experience
+                  the simple beauty of life as it’s lived by the people of
+                  Chaksu.
+                </p>
+                <button class="explore-button">Explore</button>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- ------------------------- -->
+
+      <!-- <div class="other-experiences-section">
+            <div class="common-heading experiences-heading">
+                <h2>
+                    Other Experiences/Activities 
+                </h2>
+            </div>
+        </div> -->
+
+      <!-- ------------------------- -->
+
+      <div class="gift-section">
+        <div class="common-heading gift-heading">
+          <h2>Festive gifting</h2>
+        </div>
+
+        <div class="gift-container">
+          <div class="gift-card-left">
+            <img src="./images/gift-card-left-2.png" alt="" />
+            <div class="gift-card-content">
+              <h5>Gift a stay</h5>
+
+              <h4></h4>
+            </div>
+          </div>
+          <div class="gift-card-right">
+            <img src="./images/gift-card-right-1.webp" alt="" />
+            <div class="gift-card-content">
+              <h5>Chaksu essentials</h5>
+
+              <h4></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------- -->
+
+      <div class="image-text-container">
+        <div
+          class="image-text-container_img"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="100"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="image-text-container_text"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="120"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+        >
+          <h2>Our Menifesto</h2>
+
+          <hr />
+
+          <p>
+            Our Habitas Rise is our global impact <br />
+            initiative focused on strengthening <br />
+            local communities,cultures and <br />
+            conservation efforts.
+          </p>
+
+          <div class="learn-more-btn">
+            <a href="#">
+                <button>Learn More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------- -->
+
+      <div class="image-text-container image-text-container-odd">
+        <div
+          class="image-text-container_text"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="120"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+        >
+          <h2>Our Story-1994</h2>
+
+          <hr />
+
+          <p>
+            Our Habitas Rise is our global impact <br />
+            initiative focused on strengthening <br />
+            local communities,cultures and <br />
+            conservation efforts.
+          </p>
+
+          <div class="learn-more-btn">
+            <a href="#">
+                <button>Learn More</button>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="image-text-container_img"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="100"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- ------------------------- -->
+
+      <div class="image-text-container">
+        <div
+          class="image-text-container_img"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="100"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="image-text-container_text"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="120"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+        >
+          <h2>Our History</h2>
+
+          <hr />
+
+          <p>
+            Our Habitas Rise is our global impact <br />
+            initiative focused on strengthening <br />
+            local communities,cultures and <br />
+            conservation efforts.
+          </p>
+
+          <div class="learn-more-btn">
+            <a href="#">
+                <button>Learn More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------- -->
+
+      <div class="image-text-container image-text-container-odd">
+        <div
+          class="image-text-container_text"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="120"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+        >
+          <h2>Our restoration</h2>
+
+          <hr />
+
+          <p>
+            Our Habitas Rise is our global impact <br />
+            initiative focused on strengthening <br />
+            local communities,cultures and <br />
+            conservation efforts.
+          </p>
+
+          <div class="learn-more-btn">
+            <a href="#">
+                <button>Learn More</button>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="image-text-container_img"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="100"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- ------------------------- -->
+
+      <div class="image-text-container">
+        <div
+          class="image-text-container_img"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="100"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+
+        <div
+          class="image-text-container_text"
+          data-aos="fade-up"
+          data-aos-offset="200"
+          data-aos-delay="120"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+        >
+          <h2>Our Sustainability</h2>
+
+          <hr />
+
+          <p>
+            Our Habitas Rise is our global impact <br />
+            initiative focused on strengthening <br />
+            local communities,cultures and <br />
+            conservation efforts.
+          </p>
+
+          <div class="learn-more-btn">
+            <a href="#">
+                <button>Learn More</button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------- -->
+
+      <div class="image-text-container image-text-container-odd">
+        <div
+          class="image-text-container_text"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="120"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+        >
+          <h2>Our Community Impact</h2>
+
+          <hr />
+
+          <p>
+            Our Habitas Rise is our global impact <br />
+            initiative focused on strengthening <br />
+            local communities,cultures and <br />
+            conservation efforts.
+          </p>
+
+          <div class="learn-more-btn">
+            <a href="#">
+                <button>Learn More</button>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="image-text-container_img"
+          data-aos="fade-up"
+          data-aos-offset="150"
+          data-aos-delay="100"
+          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+        >
+          <img
+            src="https://images.unsplash.com/photo-1549294413-26f195200c16?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- ------------------------- -->
+
+      <footer class="footer" data-aos="fade-up">
+        <div class="footer-container">
+          <!-- Left Side: Company Name & Tagline -->
+          <div class="footer-company">
+            <h2>Chaksu Haveli</h2>
+            <p>Your tagline goes here.</p>
+          </div>
+
+          <!-- Right Side: Link Columns -->
+          <div class="footer-columns">
+            <div class="footer-column">
+              <h3>About Us</h3>
+              <a href="#">Our Story</a>
+              <a href="#">Mission</a>
+              <a href="#">Team</a>
+            </div>
+            <div class="footer-column">
+              <h3>Services</h3>
+              <a href="#">Consulting</a>
+              <a href="#">Support</a>
+              <a href="#">Pricing</a>
+            </div>
+            <div class="footer-column">
+              <h3>Follow Us</h3>
+              <a href="#">Instagram</a>
+              <a href="#">Youtube</a>
+              <a href="#">Facebook</a>
+            </div>
+            <div class="footer-column">
+              <h3>Contact</h3>
+              <a href="#">Contact Us</a>
+              <a href="#">Locations</a>
+              <a href="#">FAQ</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Links for Terms & Conditions, Privacy Policy, etc. -->
+        <div class="footer-bottom">
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>   
+      const resizingDiv = document.getElementById('resizingDiv');
+      
+      window.addEventListener('scroll', () => {
+          // Get the scroll position
+          const scrollPosition = window.scrollY;
+          // Calculate new font size
+          const newFontSize = Math.max(10, 100 - scrollPosition / 10); // Min font size of 20px
+          // Update the font size of the div
+          resizingDiv.style.fontSize = `${newFontSize}px`;
+      });
+    </script>
+    
+  </body>
+</html>
