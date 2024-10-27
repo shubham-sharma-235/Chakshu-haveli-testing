@@ -362,6 +362,7 @@ body::-webkit-scrollbar-thumb {
 }
 .snipt-card img{
     height: 34rem;
+    width: 26rem;
 }
 .snipt-card{
     display: flex;
@@ -887,6 +888,13 @@ footer{
         line-height: 1.8rem;
     }
     
+    /* ------------------------------ */
+    
+    .snipt-card img{
+        height: 30rem;
+        width: 22rem;
+    }
+
     /* ------------------------------ */
     
     .our-story-video-section {

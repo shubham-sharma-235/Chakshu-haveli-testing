@@ -145,7 +145,7 @@ document.querySelector('.carousel-prev').addEventListener('click', () => {
 
 const container = document.querySelector('.snipts-container');
 let scrollAmount = 0;
-const scrollStep = 450; // Adjust scroll step based on card width
+const scrollStep = 380; // Adjust scroll step based on card width
 const pauseTime = 3500; // Pause duration in milliseconds (1.5 seconds)
 
 // Function to handle automatic sudden scrolling
