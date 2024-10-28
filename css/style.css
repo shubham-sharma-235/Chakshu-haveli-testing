@@ -90,7 +90,12 @@ body::-webkit-scrollbar-thumb {
     width: 100%;
     filter: brightness(90%);
 }
-
+.hero-video-desktop{
+    display: block;
+}
+.hero-video-mobile{
+     display: none;
+}
 
 .Hero-heading {
     position: absolute; /* Center it with absolute positioning */
@@ -292,66 +297,6 @@ body::-webkit-scrollbar-thumb {
 
 /* ------------------------------------------- */
 
-/* .snipts-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 4rem;
-}
-
-.carousel {
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-}
-
-.carousel-images {
-    display: flex;
-    transition: transform 0.5s ease;
-    opacity: 1;
-}
-
-.carousel-images img {
-    width: 500px; 
-    height: 400px;
-    margin: 0 5px; 
-    transition: transform 0.5s ease, opacity 0.5s ease;
-    opacity: 0.5;
-}
-
-.main-image {
-    width: 550px;
-    height: auto;
-    opacity: 1; 
-}
-  
-.carousel button {
-    background-color: #FFF9F2;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    position: absolute;
-    z-index: 1;
-    height: 3.4rem;
-    border-radius: 50%;
-    width: 3.4rem;
-    transition: all ease-in-out .3s;
-}
-.carousel button:hover{
-    background-color: rgba(255, 255, 255, 0.8);
-}
-
-.prev {
-    left: 25px;
-}
-
-.next {
-    right: 25px;
-} */
-
 .snipts-section{
     display: flex;
     flex-direction: column;
@@ -361,8 +306,8 @@ body::-webkit-scrollbar-thumb {
     
 }
 .snipt-card img{
-    height: 34rem;
-    width: 26rem;
+    height: 34vw;
+    width: 28vw;
 }
 .snipt-card{
     display: flex;
@@ -843,20 +788,51 @@ footer{
 }
 
 
+@media(max-width: 800px){
+    .hero-video-desktop{
+        display: none;
+    }
+    .hero-video-mobile{
+        display: block;
+    }
+}
 
 
-@media(max-width: 700px){
+@media(max-width: 670px){
     .hero-video{
-        height: 100vh;
-        width: 100vw;
+        height: 163vw;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .hero-video video{
-        height: 100%;
-        /* width: 100vw; */
+    .hero-video-desktop{
+       display: none;
     }
+    .hero-video-mobile{
+        display: block;
+    }
+    
+    .hero-video video{
+        position: relative;
+        top: 0;
+        /* left: 0; */
+        height: 100%;
+        width: 100%;
+    }
+    .hero__bottom {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        top: 145vw;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        z-index: 1000;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+    
+
     .Hero-heading {
         font-size: 20vw; 
     }
@@ -891,8 +867,25 @@ footer{
     /* ------------------------------ */
     
     .snipt-card img{
-        height: 30rem;
-        width: 22rem;
+        height: 28rem;
+        width: 20rem;
+    }
+    .snipt-card h3 {
+        margin: 12px 0;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .snipt-card h4 {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .snipt-card p {
+        padding: 10px;
+        border: #807566 1px solid;
+        margin-top: 18px;
+        font-size: 12px;
+        line-height: 14px;
     }
 
     /* ------------------------------ */
@@ -902,12 +895,16 @@ footer{
     }
     
     /* ------------------------------ */
-    
+
+    .experiences-container {
+        padding: 0px;
+    }
     .experience-item {
-        margin: 18px;
+        margin: 10px 18px;
     }
     .experience-item img {
-        height: 22rem;
+        height: 100vw;
+        width: 22vw;
         width: 100%;
     }
     
@@ -919,8 +916,23 @@ footer{
     
     /* ------------------------------ */
 
+    .gift-section {
+        height: 180vh;
+        padding: 2rem;
+    }
     .gift-container {
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .gift-card-left img{
+        height: 90vh;
+        width: 90vw;
+    }
+    .gift-card-right img{
+        height: 40vh;
+        width: 90vw;
+    }
+    .gift-card-content h5 {
+       font-size: 16px;
     }
 
     /* ------------------------------ */

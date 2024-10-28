@@ -74,78 +74,11 @@ videoContainer.addEventListener("transitionend", () => {
     }
 });
 
-
 // ====================================
-
-/*
-let currentIndex = 0;
-const totalImages = document.querySelectorAll('.carousel-images img').length;
-const carouselIntervalTime = 3000; // Set interval time in milliseconds (e.g., 3000ms = 3 seconds)
-let carouselInterval;
-
-// Function to scroll images
-function scrollCarousel(direction) {
-    const images = document.querySelectorAll('.carousel-images img');
-    currentIndex += direction;
-
-    // Loop around images
-    if (currentIndex < 0) {
-        currentIndex = totalImages - 1;
-    } else if (currentIndex >= totalImages) {
-        currentIndex = 0;
-    }
-
-    // Update carousel position
-    const offset = currentIndex * -450; // Adjust offset based on image width and margin
-    document.querySelector('.carousel-images').style.transform = `translateX(${offset}px)`;
-
-    // Update image brightness and opacity
-    images.forEach((img, index) => {
-        if (index === currentIndex) {
-            img.classList.add('main-image');
-            img.style.filter = 'brightness(100%)'; // Full brightness for the main image
-            img.style.opacity = '1';
-        } else {
-            img.classList.remove('main-image');
-            img.style.filter = 'brightness(45%)'; // Lower brightness for other images
-            img.style.opacity = '1'; // Optional: small opacity for dim effect
-        }
-    });
-}
-
-// Set up auto-scrolling
-function startAutoScroll() {
-    carouselInterval = setInterval(() => {
-        scrollCarousel(1); // Automatically scroll to the next image
-    }, carouselIntervalTime);
-}
-
-// Restart the auto-scrolling after a manual scroll
-function resetAutoScroll() {
-    clearInterval(carouselInterval); // Clear existing interval
-    startAutoScroll(); // Restart auto-scrolling
-}
-
-// Start auto-scroll initially
-startAutoScroll();
-
-// Optional: Attach event listeners for manual scrolling buttons
-document.querySelector('.carousel-next').addEventListener('click', () => {
-    scrollCarousel(1);
-    resetAutoScroll(); // Reset interval after manual scroll
-});
-
-document.querySelector('.carousel-prev').addEventListener('click', () => {
-    scrollCarousel(-1);
-    resetAutoScroll(); // Reset interval after manual scroll
-});
-
-*/
-
 
 const container = document.querySelector('.snipts-container');
 let scrollAmount = 0;
-const scrollStep = 380; // Adjust scroll step based on card width
+const scrollStep = 320; // Adjust scroll step based on card width
 const pauseTime = 3500; // Pause duration in milliseconds (1.5 seconds)
 
 // Function to handle automatic sudden scrolling
